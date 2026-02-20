@@ -8,7 +8,7 @@ A lightweight, asynchronous URL shortening service built with **FastAPI** and **
 - **Click Tracking:** Built-in analytics to monitor link usage.
 - **Auto-Normalization:** Handles missing protocols (adds `https://` automatically).
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Framework:** FastAPI
 - **Database:** PostgreSQL
 - **ORM:** SQLAlchemy 2.0 (Async)
