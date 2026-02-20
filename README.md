@@ -8,6 +8,14 @@ A lightweight, asynchronous URL shortening service built with **FastAPI** and **
 - **Click Tracking:** Built-in analytics to monitor link usage.
 - **Auto-Normalization:** Handles missing protocols (adds `https://` automatically).
 
+## 🛠️ Tech Stack
+- **Framework:** FastAPI
+- **Database:** PostgreSQL
+- **ORM:** SQLAlchemy 2.0 (Async)
+- **Driver:** asyncpg
+- **Validation:** Pydantic v2
+- **Server:** Uvicorn
+
 ## Setup
 1. **Install dependencies:**
    ```bash
