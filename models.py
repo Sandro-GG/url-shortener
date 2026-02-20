@@ -10,4 +10,5 @@ class URL(Base):
     original_url: Mapped[str] = mapped_column()
     short_code: Mapped[str] = mapped_column(index=True, unique=True, nullable=True)
     created_at: Mapped[datetime] = mapped_column(sa.DateTime, server_default=sa.func.now())
+    clicks: Mapped[int] = mapped_column(default=0)
     
