@@ -66,6 +66,7 @@ To verify the full system functionality, follow these steps:
    Use the **POST** `/shorten` endpoint with a body like:
    ```json
    { "target_url": "google.com" }
+   
    *Note: The API will automatically prepend `https://` if it is missing to ensure valid redirection.*
 
 3. **Trigger Redirect:**
