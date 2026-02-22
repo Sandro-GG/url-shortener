@@ -20,5 +20,3 @@ def decode(code: str) -> int:
         total = (total * 62) + CHARSET.index(char)
     
     return total
-
-print(decode(encode(833849921432123332)) == 833849921432123332)
